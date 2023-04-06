@@ -12,25 +12,31 @@ This is a test project that try compile a simple C++/Swift program with Conan as
 
 ## How to use
 
-Install conan tool:
+Install Conan Tool:
 
 ```
 python3 -m pip install -r requirements.txt
 ```
 
-To build for Catalyst:
-
-```
-make build-catalyst
-```
-
-To build for iOS:
+To build for iOS using Conan:
 
 ```
 make build-ios
 ```
 
-To build with Leetal iOS Toolchain:
+To build for Catalyst using Conan:
+
+```
+make build-catalyst
+```
+
+To build for iOS using Leetal iOS Toolchain:
+
+```
+make build-ios-toolchain
+```
+
+To build for Catalyst using Leetal iOS Toolchain:
 
 ```
 make build-catalyst-toolchain
