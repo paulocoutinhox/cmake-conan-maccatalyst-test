@@ -108,6 +108,6 @@ build-catalyst-toolchain:
 		-B build \
 		-GXcode \
 		-DCMAKE_TOOLCHAIN_FILE=ios.toolchain.cmake \
-		-DPLATFORM=MAC_CATALYST_ARM64
+		-DPLATFORM=MAC_CATALYST
 
 	cmake --build build --config Release
